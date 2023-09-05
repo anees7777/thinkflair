@@ -1,0 +1,738 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  h1,h2,h3,h4 { margin: 0px;}
+  p { margin: 0px;}
+
+.navbar{ height:100px;}
+.navbar ul li { padding: 0px 30px 0px 0px;} 
+.navbar ul li a {
+    font-size: 18px; 
+    font-weight:300;
+    color:#1A1A1A; 
+    font-family:Poppins; 
+    }
+.navbar .btn {
+    border:0px;
+    width:175px; 
+    height:50px;
+    color: #FFF;
+    font-size:18px;
+    font-weight:600;
+    border-radius:50px;
+    font-family:Poppins;
+    background-color:#FF7F50;
+    }
+    .navbar img { max-width:100%;}
+/* ===============================================================================================================HEADER CSS CLOSED */
+/* ===============================================================================================================BUILDING SOFTWARE CSS START */
+.building-software { 
+     padding:67px 0px 170px 0px;
+     background: url(../img/img-back-building-software.png) no-repeat center /cover;
+}
+.building-software img { max-width: 100%;}
+.building-software h2 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight:700;
+    line-height:62px;
+    font-family: Poppins;
+    }
+.building-software p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight:500;
+    line-height:30px;
+    font-family: Roboto;
+    padding: 40px 0px 50px 0px;
+   } 
+.building-software .btn {
+    border:0px;
+    width:214px; 
+    height:50px;
+    font-size:18px;
+    font-weight:600;
+    border-radius:50px;
+    font-family: Roboto;
+    padding: 12px 0px;
+    position: relative;
+    background-color:#FF7F50;
+    }
+.building-software .btn::before {
+    top: 0px;
+    right: -60px;
+    content: "";
+    width:49px;
+    height:49px;
+    border-radius:49px;
+    position: absolute;
+    background:url(../img/icon-play.png) no-repeat top 15px left 18px #FF7F50 }  
+/* ===============================================================================================================BUILDING SOFTWARE CSS CLOSED */        
+/* ===============================================================================================================ABOUT US CSS START */
+.about-us { padding: 100px 0px;}    
+.about-us h2 {
+    color: #6100FF;
+    font-size: 20px;
+    font-weight:500;
+    font-family: Poppins;
+    padding: 0px 0px 13px 0px;
+    }
+.about-us h3 {
+    color: #212121;
+    font-size: 35px;
+    font-weight:500;
+    line-height:51px;
+    font-family: Poppins;
+    padding: 0px 0px 30px 0px;
+    } 
+.about-us h3:nth-child(4) {line-height:30px; padding-top: 80px;}     
+.about-us p {
+    color: #000;
+    font-size: 16px;
+    font-weight:300;
+    line-height:30px;
+    font-family: Roboto;
+    position: relative;
+    } 
+.about-us p:nth-child(3):after{
+   left: 0;
+   bottom:-50px;
+   width: 500px;
+   height: 1px;
+   content: "";
+   position: absolute;
+   background-color: #1C1C1C;;
+}    
+.about-us ul li a {
+   color: #000;
+   font-size: 16px;
+   font-weight:300;
+   line-height:30px;
+   font-family: Roboto;
+   text-decoration: none;}
+.about-us .ticket-box{ 
+    width: 290px;
+    padding: 35px 20px;
+    border: 1px dotted gray; 
+    box-shadow:  0px 0px 8px 0px rgba(38, 36, 36, 0.25);;
+    } 
+.about-us .ticket-box h4 {
+    color: #ffff;
+    font-size: 20px;
+    font-weight:600;
+    font-family: Poppins;
+    padding: 80px 0px 0px 0px; }
+.about-us .ticket-box p {
+    margin: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight:300;
+    font-family: Poppins;
+    padding: 0px 0px 0px 0px;} 
+.about-us .sec-box { 
+    display: flex;
+    justify-content: center;
+    }
+.about-us .sec-box ul { list-style: none;}
+.about-us .sec-box .ticket-manage { 
+    margin-bottom: 30px; 
+    background:url(../img/icon-ticket\ manage.png) no-repeat left 20px top 35px #FF7F50;
+    }
+.about-us .sec-box .live { margin-bottom: 30px; background:url(../img/icon-live\ messaging.png) no-repeat left 20px top 35px; }
+.about-us .sec-box .live h4 { color: #1A1A1A;}
+.about-us .sec-box .live p { color: #1A1A1A;}
+.about-us .sec-box .email h4 { color: #1A1A1A;}
+.about-us .sec-box .email p { color: #1A1A1A;}
+.about-us .sec-box .file {background:url(../img/icon-file\ upload.png) no-repeat left 20px top 35px #FF7F50;}
+.about-us .sec-box .email { background:url(../img/icon-email\ workflow.png) no-repeat left 20px top 35px; }
+/* ==========================================================================================================================ABOUT US CSS CLOSED */
+/* ==========================================================================================================================OUR FEATURE CSS START */
+.our-feature {
+    background:#6100FF; 
+    padding: 80px 0px 80px 0px;
+    }
+.our-feature h2 {
+   margin:0px;
+   color:#FFFFFF;
+   font-size:35px;
+   font-weight:500;
+   text-align:center;
+   letter-spacing:1px;
+   font-family: Poppins;
+   position: relative;
+   padding:0px 0px 40px 0px;
+   }
+.our-feature h2::after { 
+   bottom: 30px;  
+   left: 455px;  
+   content: "";
+   width:230px;
+   position: absolute;
+   border: 2px dotted #FFFFFF;
+   }   
+.our-feature p {
+   margin:0px; 
+   color:#FFFFFF; 
+   font-size:18px;
+   font-weight:500;
+   line-height:30px;
+   text-align:center;
+   font-family: Roboto;
+   padding: 0px 0px 50px 0px;
+   } 
+.our-feature img { max-width: 100%;}  
+.our-feature .drag-drop { 
+   width: 350px;
+   height:auto;
+   position: relative;
+   padding: 20px 20px 20px 120px;
+   } 
+.our-feature .drag-drop::after{
+   top: 20px;
+   left: 20px; 
+   content: ""; 
+   width: 70px;
+   height: 70px;
+   border-radius:70px;
+   position: absolute;
+  }
+.our-feature .featured .drag-drop:nth-child(1)::after{background:url(../img/icon-drag\ and\ drop.png) no-repeat center #ffff;} 
+.our-feature .featured .drag-drop:nth-child(2)::after{background:url(../img/icon-color\ schemes.png) no-repeat center #ffff;}   
+.our-feature .featured-two .drag-drop:nth-child(1)::after{background:url(../img/icon-app\ integration.svg) no-repeat center #ffff;} 
+.our-feature .featured-two .drag-drop:nth-child(2)::after{background:url(../img/icon-high\ resolution.png) no-repeat center #ffff;}    
+.our-feature .drag-drop h3 {
+   color:#FFFFFF;  
+   font-size:25px;
+   font-weight:700;
+   font-family: Roboto;
+   padding: 0px 0px 10px 0px;
+   } 
+.our-feature .drag-drop p {
+   color: #FFFFFF;  
+   font-size:16px;
+   font-weight:500;
+   line-height:30px;
+   font-family: Roboto;
+   text-align:left;
+   padding-bottom: 0px;
+   }
+.our-feature .main-contain { 
+   display: flex;
+   justify-content: center;
+  }
+.our-feature .main-contain .featured .drag-drop:nth-child(1){
+    border-right: 1px dotted #FFFFFF;
+    border-bottom: 1px dotted #FFFFFF;
+   } 
+.our-feature .main-contain .featured .drag-drop:nth-child(2) { border-right: 1px dotted #FFFFFF ;}   
+.our-feature .main-contain .featured-two .drag-drop:nth-child(2){ border-top: 1px dotted #FFFFFF;} 
+/* ==========================================================================================================================OUR FEATURE CSS CLOSED */    
+/* ==========================================================================================================================OUR PAKAGE CSS START */        
+.our-package { padding:70px 0px;}
+.our-package h2 {
+    margin:0px;
+    color:#6100FF;
+    font-size:35px;
+    font-weight:500;
+    text-align:center;
+    letter-spacing:1px;
+    font-family: Poppins;
+    position: relative;
+    padding:0px 0px 40px 0px;
+    }
+.our-package h2::after { 
+    bottom: 30px;  
+    left: 455px;  
+    content: "";
+    width:230px;
+    position: absolute;
+    border: 2px dotted #FF7F50;
+    }   
+.our-package p {
+    margin:0px; 
+    color:#000000; 
+    font-size:18px;
+    font-weight:500;
+    line-height:30px;
+    text-align:center;
+    font-family: Roboto;
+    padding: 0px 0px 50px 0px;
+    } 
+.our-package .plans {
+    width:350px;
+    height:570px;
+    text-align: center;
+    background: #FFF;
+    border-radius:10px;
+     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25); 
+    }
+.our-package .plans .main-head {
+    padding: 30px 0px 30px 0px; 
+    background: #FF7F50;
+    border-radius:10px 10px 0px 0px;
+   }        
+.our-package .professional .plans .main-head {background:#6100FF;}
+.our-package .professional .plans .btn {background:#6100FF;}
+.our-package .plans h3 {
+    color:#FFF; 
+    font-size:30px;
+    font-weight:500;
+    font-family: Poppins;
+    padding: 0px 0px 10px 0px;
+   }
+.our-package .plans h4 { 
+    color:#FFF;
+    font-size:40px;
+    font-weight:500;
+    font-family: Poppins;
+   } 
+.our-package .plans span { 
+    font-size:16px;
+    font-weight:400;
+    font-family: Poppins;
+   }    
+.our-package .plans p { 
+    font-size:16px;
+    font-weight:300;
+    font-family: Roboto;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #3C3C3C;
+   }  
+.our-package .plans  .btn {
+    border:0px;
+    width:214px; 
+    height:50px;
+    color: #FFF;
+    font-size:18px;
+    font-weight:600;
+    margin-top:30px;
+    border-radius:50px;
+    font-family: Roboto;
+    background-color:#FF7F50;
+    padding: 12px 0px 0px 0px;
+    }
+/* ==========================================================================================================================OUR PAKAGE CSS CLOSED */  
+/* ==========================================================================================================================ENOVATIVE CSS START */
+.enovative { 
+    position: relative;
+    padding: 90px 0px;
+    background: url(../img/img-back-inovative.png) no-repeat center/cover;
+    }
+.overlay { 
+   top: 0; 
+   width: 100%;
+   height:100%;
+   position:absolute;
+   background-color: rgba(0, 0, 0, 0.80);;
+  }    
+.enovative h2 {
+    margin:0px;
+    color:#fff;
+    font-size:35px;
+    font-weight:500;
+    text-align:center;
+    letter-spacing:1px;
+    font-family: Poppins;
+    position: relative;
+    padding:0px 0px 40px 0px;
+    }
+.enovative h2::after { 
+    bottom: 30px;  
+    left: 455px;  
+    content: "";
+    width:230px;
+    position: absolute;
+    border: 2px dotted #fff;
+    }   
+.enovative p {
+    z-index: 1;
+    margin:0px; 
+    color:#fff; 
+    font-size:18px;
+    font-weight:500;
+    line-height:30px;
+    text-align:center;
+    font-family: Roboto;
+    padding: 0px 0px 50px 0px;
+    }
+.enovative .our-team { 
+    width:350px;
+    height:350px;
+    position: relative;
+    background: url(../img/img-our-team.png) no-repeat center;
+    box-shadow: 0px 0px 4px 3px rgba(255, 255, 255, 0.25);
+    } 
+.enovative .enovat-team .our-team:nth-child(1){  background: url(../img/img-our-team2.png) no-repeat center; }    
+.enovative .enovat-team .our-team:nth-child(3){  background: url(../img/img-our-team2.png) no-repeat center; }   
+.enovative .team-detail { 
+    bottom: -60px;
+    left:45px;
+    width:257px;
+    height:78px;
+    margin: auto;
+    background:#fff;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px 3px rgba(255, 255, 255, 0.25);
+    } 
+.enovative .team-detail h3 { 
+    font-size:20px;
+    font-weight:500;
+    font-family: Roboto; 
+    padding: 12px 0px 0px 0px;
+    }
+.enovative .team-detail p {
+    padding: 0px;
+    color: #000;  
+    font-size:16px;
+    font-weight:300;
+    font-family: Roboto;
+    } 
+.enovative .enovat-team {
+    display: flex;
+    justify-content: space-between;}  
+/* ==========================================================================================================================ENOVATIVE CSS CLOSED */
+/* ==========================================================================================================================UPDATE CSS START */
+.update { padding: 70px 0px;}    
+.update h2 {
+    margin:0px;
+    color:#212121;
+    font-size:35px;
+    font-weight:500;
+    text-align:center;
+    letter-spacing:1px;
+    font-family: Poppins;
+    position: relative;
+    padding:0px 0px 40px 0px;
+    }
+.update h2::after { 
+    bottom: 30px;  
+    left: 455px;  
+    content: "";
+    width:230px;
+    position: absolute;
+    border: 2px dotted #FF7F50;
+    }   
+.update p {
+    z-index: 1;
+    margin:0px; 
+    color:#212121;; 
+    font-size:18px;
+    font-weight:500;
+    line-height:30px;
+    text-align:center;
+    font-family: Roboto;
+    padding: 0px 0px 40px 0px;
+    }
+.update .connect { display: flex; justify-content: center;}
+.update .connect input {
+    width:400px;
+    height:50px;
+    }
+.update .connect input[placeholder]{
+    color:#7F7F7F; 
+    font-size:16px;
+    font-weight:400;
+    font-family: Roboto;
+    padding-left:30px;
+   }    
+.update .connect .btn {
+    width:159px;
+    height:50px;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    border-radius:0px;
+    font-family: Roboto;
+    background:#407BFF;
+    padding: 13px 0px 0px 0px;
+    }  
+/* ==========================================================================================================================UPDATE CSS CLOSED */           
+/* ==========================================================================================================================FOOTER CSS START */
+.footer { 
+    padding: 30px 0px;
+    background-color: #EDFAFA;
+    }     
+.footer img { max-width:100%; margin-bottom: 30px;}
+.footer ul { list-style: none; margin:0px;}
+.footer ul li {padding:10px 0px 0px 0px;}
+.footer ul li:nth-child(1) {padding-top:0px;}
+.footer ul li a {
+    color:#000; 
+    font-size:16px;
+    font-weight:300;
+    font-family: Roboto;
+    text-decoration:none;
+    }
+.footer span {
+    color:#000; 
+    font-size:16px;
+    font-weight:300;
+    font-family: Roboto;
+    text-decoration:none;
+    }    
+.footer h3 {
+    color:#6100FF; 
+    font-size:30px;
+    font-weight:400;
+    font-family: Poppins;
+    padding: 0px 0px 10px 0px;
+    } 
+.footer p {
+    color:#000; 
+    font-size:16px;
+    font-weight:300;
+    font-family: Roboto;
+    }    
+.footer .col-sm-12:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+     }
+/* ==========================================================================================================================FOOTER CSS CLOSED */
+/* ==========================================================================================================================MEDIA QUARY START */
+@media(max-width:1200px){
+.about-us .ticket-box{ 
+    width: 250px;
+    padding: 25px 20px;}
+.about-us .ticket-box p { font-size:13px;}  }
+
+@media(max-width:1180px){
+.building-software h2 {
+    font-size: 40px;
+    line-height: 51px;
+    }    
+.navbar ul li { padding: 0px 15px 0px 0px;}
+.navbar .btn { width:140px;} 
+.about-us h3 { 
+    font-size:30px;
+    line-height:40px;
+    } 
+.about-us p { 
+    font-size:14px;
+    line-height:28px;
+    } 
+.about-us p:nth-child(3):after { width:420px;}
+.about-us .ticket-box { 
+    width:220px;
+    padding:15px;
+    } 
+.about-us .ticket-box p { font-size:12px;} 
+.our-feature .drag-drop p { 
+    font-size:14px;
+    line-height: 28px;
+    }
+.our-feature .drag-drop h3 { font-size:22px;}
+.our-feature .drag-drop {
+    width: 295px;
+    padding: 20px 20px 20px 90px;
+    } 
+.our-feature .drag-drop::after {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    } 
+.our-feature h2::after {left:370px;}
+.our-package h2::after {left:371px;}
+.our-package .plans {width:300px;}
+.our-package .plans h4 { font-size:30px;}
+.our-package .plans h3 {font-size:28px;}
+.enovative h2::after {left:370px;}
+.enovative .our-team {width:280px;}
+.enovative .team-detail {left:20px; width:240px;}
+.update h2::after {left:370px;}
+   }
+@media(max-width:990px){  
+.building-software h2 {
+    font-size: 30px;
+    line-height: 40px;
+    }
+.building-software p {
+    font-size: 14px;
+    padding: 30px 0px 40px 0px;
+    } 
+.building-software { padding: 50px 0px 120px 0px;} 
+.about-us h3 {
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 20px;
+    }  
+.about-us p {
+    font-size: 14px;
+    line-height: 24px;
+    }
+.about-us ul li a { font-size:14px;}    
+.about-us p br { display:none;}    
+.about-us p:nth-child(3):after {bottom:-30px;}
+.about-us h3:nth-child(4){padding-top:50px;}
+.about-us p:nth-child(3):after { width:300px;}
+.about-us ul { padding-left: 15px;}
+.about-us .ticket-box { width:195px;}
+.about-us .sec-box .ticket-manage { 
+    margin-bottom: 30px; 
+    background:url(../img/icon-ticket\ manage.png) no-repeat left 20px top 20px #FF7F50;
+    }
+.about-us .sec-box .file {background:url(../img/icon-file\ upload.png) no-repeat left 20px top 20px #FF7F50;}
+.about-us .sec-box .email { background:url(../img/icon-email\ workflow.png) no-repeat left 20px top 20px; } 
+.about-us .sec-box .live { margin-bottom: 30px; background:url(../img/icon-live\ messaging.png) no-repeat left 20px top 20px; }
+.about-us .ticket-box h4 { padding: 75px 0px 15px; } 
+.our-feature h2 { font-size:30px;}
+.our-feature p { font-size:14px;}
+.our-feature h2::after { left: 245px;} 
+.our-feature .drag-drop {
+    width: 265px;
+    padding: 15px 15px 15px 70px;
+    } 
+.our-feature .drag-drop::after {
+   top: 10px;
+   left: 10px; 
+   width: 45px;
+   height: 45px;
+   border-radius: 45px;
+   }
+.our-package h2 { font-size:30px;}
+.our-package p { font-size:14px;}
+.our-package h2::after { left: 245px;} 
+.our-package .plans { width:230px;}       
+.our-package .plans {height:540px;}
+.our-package .plans .btn {width:180px;}
+.our-package .plans h3 {font-size:21px;}
+.our-package .plans h4 {font-size:25px;}
+.enovative h2 { font-size:30px;}
+.enovative p { font-size:14px;}
+.enovative h2::after { left: 245px;} 
+.enovative .our-team { width: 220px;}
+.enovative .team-detail {
+  left: 10px;
+  width: 200px;
+  }
+.update h2 h2 { font-size:30px;}
+.update p { font-size:14px;}
+.update h2::after { left: 245px;}
+.footer ul li { padding: 0px 0px 0px 0px;}  
+.footer ul li a {font-size:13px;}
+.footer h3 { font-size:18px;}
+.footer p { font-size:13px;}
+.footer img {max-width:80%;}
+.footer span { font-size:14px;}
+  } 
+@media(max-width:767px) {
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: block;
+   background: #ffff;
+   padding-bottom: 30px;
+   text-align: left;
+   z-index: 1;
+   }  
+.navbar img { margin-left:50px;}    
+.building-software{
+text-align: center;
+}
+.building-software h2 br { display:none;}
+.building-software p br { display:none;} 
+.building-software .btn { margin-bottom:50px;}
+.building-software { padding: 50px 0px 170px 0px;}
+.about-us { padding: 0px 0px 50px 0px;} 
+.about-us p:nth-child(3):after { width:500px;}
+.about-us .sec-box {margin-top:50px;}
+.our-feature h2::after { left: 154px;}
+.our-feature p br { display: none;}
+.our-feature p {padding: 0px 0px 30px 0px;}
+.our-feature img { margin-bottom:50px;}
+.our-feature .drag-drop {
+   width: 290px;
+   padding: 100px 15px 15px 15px;
+   }
+.our-feature .drag-drop::after {
+   top: 10px;
+   left: 10px; 
+   width: 70px;
+   height: 70px;
+   border-radius: 70px;
+   } 
+.our-package h2::after { left: 154px;}
+.our-package p br { display: none;}
+.our-package p {padding: 0px 0px 30px 0px;}  
+.our-package .plans {
+   width:300px; 
+   height: 554px;
+   margin:auto;
+   margin-bottom:30px;
+   }
+.our-package .plans h4 { font-size:30px;}
+.our-package .plans h3 {font-size:28px;}  
+.our-package .plans .btn {width:215px;}
+.our-package .basic .plans{ margin-bottom:0px; }
+.enovative h2::after { left: 154px;}
+.enovative p br { display: none;}
+.enovative p {padding: 0px 0px 30px 0px;}
+.enovative .enovat-team {display: block;}
+.enovative .our-team { 
+   width:350px;
+   height:350px;
+   margin:auto;
+   margin-bottom:91px;
+   }
+.enovative .our-team:nth-child(3){margin-bottom: 0px;}   
+.enovative .team-detail { 
+   bottom: -60px;
+   left:45px;
+   width:257px;
+   height:78px;
+   } 
+.update { padding: 50px 0px 114px 0px;}  
+.update h2::after { left: 144px;}
+.update p br { display: none;}
+.update p {padding: 0px 0px 30px 0px;} 
+.footer .col-sm-12:nth-child(2){justify-content: center; margin-top: 30px;}
+.footer .col-sm-12:nth-child(1){text-align: center;}
+.footer span { text-align: center;}
+   } 
+@media(max-width:480px){
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+   justify-content: center;
+   background: #ffff;
+   padding-bottom: 30px;
+   text-align: center;
+   }
+.building-software h2 {
+   font-size: 25px;
+   line-height: 30px;
+   }  
+.about-us p { text-align: justify;} 
+.our-feature h2 { font-size:28px;}
+.our-feature h2::after {left: 125px;}
+.our-feature .main-contain { 
+    display: block;
+    padding-left: 53px;
+    
+   }
+ .our-feature .main-contain .featured .drag-drop:nth-child(1){
+     border-right:none;
+     border-bottom:none;
+    } 
+ .our-feature .main-contain .featured .drag-drop:nth-child(2) { border-right:none;}   
+ .our-feature .main-contain .featured-two .drag-drop:nth-child(2){ border-top: none;} 
+.our-package h2 { font-size:28px;}
+.our-package h2::after {left: 125px;}
+.enovative h2 { font-size:28px;}
+.enovative h2::after {left: 125px;}
+.update h2 { font-size:28px;}
+.update h2::after {left: 125px;}
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+    
+
+                   
